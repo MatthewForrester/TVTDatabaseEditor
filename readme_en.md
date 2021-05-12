@@ -11,18 +11,20 @@ An Xtext-based editor fo the editing of database files (films, news, advertising
 
 And all of this while directly editing the original file and having control over the changes made (diff between versions).
 
-# Einrichten des Editors
+# Setting up the Editor
 
-Langfristig soll es eine Eclipse-Update-Site zum Verteilen des Editors geben.
-Um in der Prototyp-Entwicklungsphase schnelle Feedback-Zyklen zu erreichen, muss der Editor zunächst lokal gebaut werden.
+In the long-term, there should be an Eclipse update site for distributing the editor. In order to achieve quick quick feedback cycles in the prototype development phase, the editor must initially be built locally.
 
-## einmalig nötige Schritte
+## One-off Steps
 
-Ich gehe davon aus, dass das TVTower-Repository bereits geklont ist!
+I'm assuming that the TVTower repository is already cloned!
 
-1. Java installieren
-1. Eclipse installieren (Eclipse-Installer) am besten Eclipse IDE for Java Developers und dieses dann starten
-1. Einrichten von Eclipse mittels Oomph-Setup-Skript
+1. Install Java
+2. Install Eclipse (Eclipse installer), preferably Eclipse IDE for Java Developers, and then start it
+3. Set up Eclipse using the Oomph setup script:
+
+XXXXXXXXXXX Will need to check the UI for the following steps in English!
+
     * Kontextmenü im Package-Explorer -> `Import...` -> `Ooomph` -> `Projects from Catalog`
     * Grünes Plus oben rechts für das Hinzufügen eines neuen Setups anklicken (es geht der `Add User Projects`-Dialog auf
     * Im Catalog-Dropdown `Github Projects` auswählen
